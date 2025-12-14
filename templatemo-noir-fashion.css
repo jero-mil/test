@@ -420,7 +420,7 @@ nav.scrolled {
 .hero-badge {
 	display: inline-block;
 	padding: 8px 20px;
-	background: white;
+	background: transparent;
 	border: 1px solid var(--accent);
 	color: var(--accent);
 	font-size: 11px;
