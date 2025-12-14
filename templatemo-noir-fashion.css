@@ -391,6 +391,7 @@ nav.scrolled {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	opacity: 0.6;
 }
 
 .hero-bg::after {
