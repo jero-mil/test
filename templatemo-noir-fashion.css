@@ -542,7 +542,7 @@ nav.scrolled {
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--text-muted);
+	color: var(--bg-dark);
 }
 
 .cta-group {
@@ -565,7 +565,7 @@ nav.scrolled {
 }
 
 .cta-button.primary {
-	background: var(--accent);
+	background: var(--accent-hover);
 	color: white;
 }
 
