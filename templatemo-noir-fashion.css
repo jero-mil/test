@@ -988,7 +988,7 @@ nav.scrolled {
 	color: var(--accent);
 	font-weight: 600;
 }
-.btn-submit {
+.button-submit {
 	background: var(--accent);
 	color: white;
 	padding: 18px 50px;
