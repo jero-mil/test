@@ -1004,6 +1004,27 @@ nav.scrolled {
     position: relative;
     overflow: hidden;
 }
+.button-price::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	transition: width 0.6s, height 0.6s;
+}
+
+.button-price:hover::before {
+	width: 300px;
+	height: 300px;
+}
+
+.button-price:hover {
+	transform: translateY(-2px);
+}
 
 /* Featured Section */
 .featured {
